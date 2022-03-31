@@ -91,7 +91,9 @@ def draw_random_composite(number=0):
 
 
 def main():
-    draw_random_composite()
+    num = input("How many?")
+    for i in range(int(num)):
+      draw_random_composite(i)
 
 
 if __name__ == '__main__':
